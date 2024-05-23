@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Roboto300";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto400";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto500";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto700";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1120px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #1391ceb2;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 41px 0px;
+  align-items: center;
+}
+.nav-start {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  column-gap: 32px;
+}
+.nav-title {
+  color: #25468a;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-link {
+  color: #25468a;
+  font-family: "Roboto500";
+  transition: all 500ms;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.btn {
+  color: #14274c;
+  font-family: "Roboto500";
+  background-color: #fff;
+  border-radius: 24px;
+  border: 3px solid #fff;
+  transition: all 500ms;
+  padding: 8px 18px;
+}
+.btn:hover {
+  border: 3px solid #14274c;
+  background-color: #1391ceb2;
+  color: #fff;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+}
+.header-title {
+  color: #25468a;
+  font-family: "Roboto700";
+  font-size: 92px;
+  margin-bottom: 8px;
+}
+.header-card-title {
+  color: #3b4a6b;
+  font-family: "Roboto400";
+  font-size: 32px;
+  margin-bottom: 42px;
+}
+.header-card-text {
+  width: 560px;
+  height: 55px;
+  flex-shrink: 0;
+  color: #3b4a6b;
+  font-family: "Roboto400";
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.header-btn {
+  color: #3b4a6b;
+  background-color: #f7ba0e;
+  font-family: "Roboto500";
+  font-size: 18px;
+  letter-spacing: 0.72px;
+  padding: 15px 85px;
+  border-radius: 26px;
+}
+/* main start */
+.main {
+  background-color: #e9f5ff;
+  padding: 176px 0px 64px;
+}
+.main-start {
+  display: flex;
+  column-gap: 32px;
+  margin-bottom: 63px;
+}
+.main-start-card {
+  padding: 69px 34px;
+  border-radius: 8px;
+  background: #1391ce;
+  flex-grow: 1;
+}
+.start-card-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto700";
+  font-size: 22px;
+  letter-spacing: 0.88px;
+}
+.center {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  row-gap: 15px;
+}
+.title {
+  color: #1391ce;
+  text-align: center;
+  font-family: "Roboto300";
+  font-size: 36px;
+  line-height: 121%;
+  letter-spacing: 0.36px;
+}
+.line {
+  width: 160px;
+  height: 8px;
+  background-color: #f7ba0e;
+  border-radius: 3px;
+  margin-bottom: 96px;
+}
+.main-center {
+  row-gap: 128px;
+}
+.main-center-info {
+  display: flex;
+  column-gap: 112px;
+}
+.center-info-img {
+  width: 560px;
+  height: 408px;
+}
+.center-box-h3 {
+  color: #25468a;
+  font-family: "Inter400";
+  line-height: 134%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.center-box-title {
+  color: #1391ce;
+  font-family: "Inter700";
+  font-size: 32px;
+  line-height: 134.3%;
+  letter-spacing: 0.32px;
+  margin-bottom: 32px;
+}
+.center-box-text {
+  color: #4f4f4f;
+  font-family: "Inter400";
+  font-size: 18px;
+  line-height: 134.3%;
+  letter-spacing: 0.36px;
+  text-align: justify;
+}
+.center-box-item {
+  list-style-image: url(../images/Vector.png);
+  color: #4f4f4f;
+  font-family: "Inter400";
+  line-height: 134.3%;
+  letter-spacing: 0.32px;
+  margin-top: 10px;
+}
+/* footer start */
+.footer {
+  padding: 54px 0px 69px;
+  background-color: #1391ce;
+}
+.hr {
+  margin-bottom: 21px;
+  color: #fff;
+  width: 1120px;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-title {
+  color: var(--color-neutral-black-1, #343233);
+  font-family: "Inter700";
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.16px;
+}
+span {
+  color: #fff;
+}
